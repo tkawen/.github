@@ -30,9 +30,9 @@ Most product teams glue together five-to-seven separate vendors — Auth0 for si
 | [**tkawen-developer-docs**](https://github.com/tkawen/tkawen-developer-docs) | Public docs at developer.tkawen.com — 17 pages, 4 SDKs | Astro 5 · Starlight | AGPL-3.0 |
 | [**tkawen-api**](https://github.com/tkawen/tkawen-api) | Unified API gateway — one Bearer key, seven pillars (alpha) | Rust · Axum · OpenAPI 3.1 | AGPL-3.0 |
 | [**oracle**](https://github.com/tkawen/oracle) | TKAWEN Macro Oracle — liquidity-first investing pipeline (research) | — | private |
-| [**liqaa-meet**](https://github.com/liqaa-cloud/liqaa-meet) | Self-hostable video meetings — alternative to Zoom | Next.js · LiveKit · Whisper | AGPL-3.0 |
+| [**liqaa-meet**](https://github.com/hartemyaakoub/liqaa-meet) | Self-hostable video meetings — alternative to Zoom | Next.js · LiveKit · Whisper | AGPL-3.0 |
 
-Plus four official SDKs under [**@liqaa-cloud**](https://github.com/liqaa-cloud): JavaScript, PHP, Python, Go — all MIT.
+Plus four official SDKs under [**@hartemyaakoub**](https://github.com/hartemyaakoub): JavaScript, PHP, Python, Go — all MIT.
 
 ## The seven pillars
 
@@ -69,7 +69,7 @@ open https://id.tkawen.com/signup
 npm install @tkawen/sdk
 # or  composer require tkawen/sdk
 # or  pip install tkawen
-# or  go get github.com/liqaa-cloud/tkawen-go
+# or  go get github.com/hartemyaakoub/tkawen-go
 
 # 3. Make your first call
 curl https://api.tkawen.com/v1/health
